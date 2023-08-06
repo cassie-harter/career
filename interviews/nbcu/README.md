@@ -24,3 +24,18 @@ During your second round of interviews, you’ll have 10 minutes to present with
 
 Thank you for in advance for participating in the case study; we look forward to hearing your presentation!
 
+---
+
+# Data Key
+<Br>
+
+|Field |Description            |
+|------|-----------------------|
+|EID   |unique employee id     |
+|DATE  | date of record action |
+|HIRES | hire flag             |
+|TERMINATIONS     |termination flag |
+|TERMINATION TYPE	|type of termination|
+|YEAR_MONTH	      |year and month concatenated|
+|COMPANY HC	      |unique count of employees |
+|TIME TO FILL	    |time it took (in days) to fill that employees position|
