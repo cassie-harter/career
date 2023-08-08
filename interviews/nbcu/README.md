@@ -50,6 +50,7 @@ I used Meta/Facebook's "Prophet" library to forecast Net Hires on both a Daily a
 I created visualizations and exported the dataframes to CSV.
 
 [Monthly Data Python Notebook via Google Colab](https://colab.research.google.com/drive/1IYprMwsaI-wvWW2O9Sit-gzdbqJRfl6y?usp=sharing)
+
 [Daily Data Python Notebook via Google Colab](https://colab.research.google.com/drive/1Br_oSNJIzonQOi3LWdgOq8PQadttKvnb?usp=sharing)
 
 
