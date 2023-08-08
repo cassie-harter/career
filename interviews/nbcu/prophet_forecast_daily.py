@@ -13,7 +13,7 @@ from prophet import Prophet
 from google.colab import drive
 drive.mount('/content/drive')
 
-df = pd.read_csv('/content/drive/MyDrive/All The Things/Career/NBCU/daily_hire-term_prophet.csv')
+df = pd.read_csv('/daily_hire-term_prophet.csv')
 
 m = Prophet()
 m.fit(df)
