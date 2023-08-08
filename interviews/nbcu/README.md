@@ -63,3 +63,23 @@ I created visualizations and exported the dataframes to CSV.
 
 The number of net hires is predicted to follow a similar trend as previous years which appears to be seasonal. 
 This conclusion is supported by the Linear Regression modeling provided by Meta's Prophet Python library.
+
+**The total number of computers needed is predicted to be 1,024.**
+
+Breakdown by month:
+
+
+| Month | Prediction |
+|------- |------------|
+| 6/1/2023	| 89 |
+| 7/1/2023	| 82 |
+| 8/1/2023	| 88 |
+| 9/1/2023	| 98 |
+| 10/1/2023 | 76 |
+| 11/1/2023 | 85 |
+| 12/1/2023 | 9 |
+| 1/1/2024	| 128 |
+| 2/1/2024	| 110 |
+| 3/1/2024	| 102 |
+| 4/1/2024	| 81 |
+| 5/1/2024	| 76 |
