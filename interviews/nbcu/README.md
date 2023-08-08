@@ -55,7 +55,7 @@ I created visualizations and exported the dataframes to CSV.
 
 
 ### Net Hires Over Time (Month)
-<img width="676" alt="image" src="https://github.com/charter-ab/career/assets/126614453/faa08749-7f6d-47e6-a39f-47c63bc778fc">
+<img width="679" alt="image" src="https://github.com/charter-ab/career/assets/126614453/cf8d8b4d-94b8-485f-adc5-80b7d4770c53">
 
 
 ---
