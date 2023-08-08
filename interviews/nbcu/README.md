@@ -24,24 +24,11 @@ During your second round of interviews, you’ll have 10 minutes to present with
 
 Thank you for in advance for participating in the case study; we look forward to hearing your presentation!
 
----
-
-## Data Key
-<Br>
-
-|Field |Description            |
-|------|-----------------------|
-|EID   |unique employee id     |
-|DATE  | date of record action |
-|HIRES | hire flag             |
-|TERMINATIONS     |termination flag |
-|TERMINATION TYPE	|type of termination|
-|YEAR_MONTH	      |year and month concatenated|
-|COMPANY HC	      |unique count of employees |
-|TIME TO FILL	    |time it took (in days) to fill that employees position|
+<br>
 
 
 ---
+
 # Results
 I created a model to predict the number of Net Hires by month over the next 12 months using [Meta's Prophet](https://facebook.github.io/prophet/docs/quick_start.html#python-api) 
 
@@ -60,7 +47,18 @@ I created a model to predict the number of Net Hires by month over the next 12 m
 ## Prophet Forecasting:
 
 I used Meta/Facebook's "Prophet" library to forecast Net Hires on both a Daily and Monthly frequency. The daily visualizations were not terribly helpful or easy to digest, but the monthly plot yielded clear results. Prophet uses Linear Regression in its modeling. 
+I created visualizations and exported the dataframes to CSV.
+
+[Monthly Data Python Notebook via Google Colab](https://colab.research.google.com/drive/1IYprMwsaI-wvWW2O9Sit-gzdbqJRfl6y?usp=sharing)
+[Daily Data Python Notebook via Google Colab](https://colab.research.google.com/drive/1Br_oSNJIzonQOi3LWdgOq8PQadttKvnb?usp=sharing)
 
 
-<img width="692" alt="Net Hires Over Time (Month)" src="https://github.com/charter-ab/career/assets/126614453/6dcd9146-74aa-483a-a006-49f992c1cffa">
+### Net Hires Over Time (Month)
+<img width="676" alt="image" src="https://github.com/charter-ab/career/assets/126614453/faa08749-7f6d-47e6-a39f-47c63bc778fc">
 
+
+---
+# Conclusion
+
+The number of net hires is predicted to follow a similar trend as previous years which appears to be seasonal. 
+This conclusion is supported by the Linear Regression modeling provided by Meta's Prophet Python library.
