@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 from google.colab import drive
 drive.mount('/content/drive')
 
-df_data = pd.read_csv('/content/drive/MyDrive/All The Things/Career/NBCU/net_hires_prophet-model_20230807.csv')
+df_data = pd.read_csv('/net_hires_prophet-model_20230807.csv')
 
 from prophet import Prophet
 
